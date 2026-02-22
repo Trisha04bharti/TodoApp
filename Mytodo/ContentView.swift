@@ -14,11 +14,8 @@ struct ContentView : View {
     
     
     var body: some View {
-        NavigationStack{
-            VStack(spacing : 20){
-                Text("hello")
-            }
-        }
+          Text("hello jii ")
+        
     }
 }
 
