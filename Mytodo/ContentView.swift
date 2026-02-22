@@ -7,15 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView : View {
+    
+    @State private var tasks: [Task] = []
+    @State private var newTaskTitle: String = ""
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack(spacing : 20){
+                Text("hello")
+            }
         }
-        .padding()
     }
 }
 
